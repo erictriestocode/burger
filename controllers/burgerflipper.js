@@ -10,3 +10,5 @@ const burger = require("Path to burger model file");
 //ROUTES!
 
 
+// Export for use elsewhere
+module.exports = router;
