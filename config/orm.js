@@ -8,7 +8,8 @@
 const connection = require("./connection.js");
 
 
-
+// This is a straight up copy paste from assignments, modifications to follow
+// ****** BEGIN COPY PASTE *******
 function printQuestionMarks(num) {
     var arr = [];
   
@@ -105,7 +106,9 @@ function printQuestionMarks(num) {
       });
     }
   };
-  
+  // ****** END COPY PASTE *******
+
+
   // Export the orm object for the model (cat.js).
   module.exports = orm;
   
