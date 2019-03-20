@@ -14,7 +14,7 @@ let exphbs = require("express-handlebars");
 app.engine("handlebars", exphbs({ defaulLayout: "main"}));
 app.set("view engine", "handlebars");
 
-// bring in our burger flippin router
+// bring in our burger flippin' router
 let routes = require("./controllers/burgerflipper");
 
 // Kick the whole thing off
