@@ -9,7 +9,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
 // Handlebars
-let exphbs = require("express-handlebars");
+const exphbs = require("express-handlebars");
 
 app.engine("handlebars", exphbs({ defaulLayout: "main"}));
 app.set("view engine", "handlebars");
